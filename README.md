@@ -85,5 +85,4 @@ This project is open-source and licensed under the **MIT License**.
 ### 🚀 **Next Steps**
 
 - Replace `"YOUR_API_KEY"` & `"YOUR_PROJECT_ID"` in Firebase setup.
-- Update `"your-username"` with your **GitHub username**.
 - Test the chatbot commands in the app.
