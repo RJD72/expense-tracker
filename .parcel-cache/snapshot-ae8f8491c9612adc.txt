@@ -98,7 +98,7 @@
 95C:\Users\robde\Desktop\Expense Tracker\node_modules\firebase\functions\dist\vertexai\index.d.ts133847020042197563 0
 93C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\remote-config\dist\src\api.d.ts133847019992583431 0
 84C:\Users\robde\Desktop\Expense Tracker\node_modules\firebase\firebase-auth-compat.js133847019992189377 0
-43C:\Users\robde\Desktop\Expense Tracker\docs133847031370311381 1
+43C:\Users\robde\Desktop\Expense Tracker\docs133847037344447347 1
 86C:\Users\robde\Desktop\Expense Tracker\node_modules\firebase\app\dist\esm\data-connect133847020018746801 1
 82C:\Users\robde\Desktop\Expense Tracker\node_modules\entities\lib\esm\encode.js.map133847019996559828 0
 105C:\Users\robde\Desktop\Expense Tracker\node_modules\firebase\messaging\sw\dist\esm\compat\index.perf.d.ts133847020053270274 0
@@ -612,7 +612,7 @@
 59C:\Users\robde\Desktop\Expense Tracker\node_modules\esutils133847019987534251 1
 133C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\database-compat\dist\node-esm\database-compat\src\api\onDisconnect.d.ts133847019998750815 0
 66C:\Users\robde\Desktop\Expense Tracker\node_modules\srcset\license133847019985294637 0
-61C:\Users\robde\Desktop\Expense Tracker\docs\index.997136f3.js133847031370073406 0
+61C:\Users\robde\Desktop\Expense Tracker\docs\index.997136f3.js133847037344172244 0
 67C:\Users\robde\Desktop\Expense Tracker\node_modules\fast-deep-equal133847019991414859 1
 105C:\Users\robde\Desktop\Expense Tracker\node_modules\firebase\auth\web-extension\dist\esm\compat\app-check133847020021524118 1
 99C:\Users\robde\Desktop\Expense Tracker\node_modules\fast-json-stable-stringify\example\value_cmp.js133847019991564266 0
@@ -2988,7 +2988,7 @@
 97C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\database\dist\node-esm\src\api.d.ts133847020000610122 0
 68C:\Users\robde\Desktop\Expense Tracker\node_modules\timsort\index.js133847019988226860 0
 74C:\Users\robde\Desktop\Expense Tracker\node_modules\timsort\src\timsort.js133847019990862517 0
-65C:\Users\robde\Desktop\Expense Tracker\docs\index.ce33c2bd.js.map133847031370297970 0
+65C:\Users\robde\Desktop\Expense Tracker\docs\index.ce33c2bd.js.map133847037344423319 0
 125C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\auth\dist\web-extension-esm2017\src\api\authentication\sms.d.ts133847020029386758 0
 76C:\Users\robde\Desktop\Expense Tracker\node_modules\timsort\build\timsort.js133847019989887709 0
 91C:\Users\robde\Desktop\Expense Tracker\node_modules\firebase\auth\cordova\dist\esm\database133847020019744988 1
@@ -4866,7 +4866,7 @@
 93C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\analytics\dist\esm\src\api.d.ts133847019993067893 0
 97C:\Users\robde\Desktop\Expense Tracker\node_modules\firebase\auth\cordova\dist\storage\index.d.ts133847020020056291 0
 68C:\Users\robde\Desktop\Expense Tracker\node_modules\ignore\README.md133847019989479325 0
-56C:\Users\robde\Desktop\Expense Tracker\assets\index.html133847030378485406 0
+56C:\Users\robde\Desktop\Expense Tracker\assets\index.html133847037183283994 0
 68C:\Users\robde\Desktop\Expense Tracker\node_modules\idb\CHANGELOG.md133847019992122054 0
 79C:\Users\robde\Desktop\Expense Tracker\node_modules\@parcel\transformer-postcss133847019991257116 1
 63C:\Users\robde\Desktop\Expense Tracker\node_modules\idb\LICENSE133847019985450096 0
@@ -10332,7 +10332,7 @@
 68C:\Users\robde\Desktop\Expense Tracker\node_modules\eslint\lib\types133847020009186614 1
 81C:\Users\robde\Desktop\Expense Tracker\node_modules\eslint\lib\unsupported-api.js133847020008665456 0
 83C:\Users\robde\Desktop\Expense Tracker\node_modules\eslint\lib\types\universal.d.ts133847020009176611 0
-62C:\Users\robde\Desktop\Expense Tracker\docs\index.4e45f56c.css133847031370073406 0
+62C:\Users\robde\Desktop\Expense Tracker\docs\index.4e45f56c.css133847037344162216 0
 83C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\analytics-compat\dist133847019991056302 1
 95C:\Users\robde\Desktop\Expense Tracker\node_modules\eslint\lib\types\rules\possible-errors.d.ts133847020009122181 0
 129C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\firestore\dist\firestore\test\integration\util\firebase_export.d.ts133847020011206083 0
@@ -13916,7 +13916,7 @@
 106C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\remote-config\dist\esm\test\errors.test.d.ts133847019994551265 0
 108C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\remote-config\dist\esm\test\language.test.d.ts133847019995272769 0
 113C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\remote-config\dist\esm\test\remote_config.test.d.ts133847019996293036 0
-66C:\Users\robde\Desktop\Expense Tracker\docs\index.4e45f56c.css.map133847031370258830 0
+66C:\Users\robde\Desktop\Expense Tracker\docs\index.4e45f56c.css.map133847037344413302 0
 97C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\remote-config\dist\esm\test\storage133847019998001660 1
 130C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\auth\dist\src\core\strategies\abstract_popup_redirect_operation.d.ts133847020004057147 0
 115C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\remote-config\dist\esm\test\storage\storage.test.d.ts133847019998023566 0
@@ -14697,7 +14697,7 @@
 118C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\firestore\dist\firestore\test\integration\bootstrap.d.ts133847020007633808 0
 127C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\firestore\dist\firestore\test\integration\prime_backend.test.d.ts133847020016167935 0
 110C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\firestore\dist\firestore\test\integration\remote133847020018726451 1
-65C:\Users\robde\Desktop\Expense Tracker\docs\index.3d84b1c7.js.map133847031370267966 0
+65C:\Users\robde\Desktop\Expense Tracker\docs\index.3d84b1c7.js.map133847037344413302 0
 141C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\firestore\dist\firestore\test\integration\util\composite_index_test_helper.d.ts133847020009024353 0
 130C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\firestore\dist\firestore\test\integration\util\internal_helpers.d.ts133847020013392287 0
 132C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\firestore\dist\firestore\test\integration\util\testing_hooks_util.d.ts133847020019260465 0
@@ -15616,7 +15616,7 @@
 109C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\auth\dist\node-esm\src\platform_node\index.d.ts133847020017939023 0
 116C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\auth\dist\node-esm\src\platform_cordova\popup_redirect133847020031048992 1
 128C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\auth\dist\node-esm\src\platform_cordova\popup_redirect\events.d.ts133847020012704255 0
-65C:\Users\robde\Desktop\Expense Tracker\docs\index.997136f3.js.map133847031370297970 0
+65C:\Users\robde\Desktop\Expense Tracker\docs\index.997136f3.js.map133847037344437303 0
 114C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\auth\dist\node-esm\src\platform_browser\load_js.d.ts133847020020331875 0
 121C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\auth\dist\node-esm\src\platform_browser\popup_redirect.d.ts133847020023736545 0
 117C:\Users\robde\Desktop\Expense Tracker\node_modules\@firebase\auth\dist\cordova\src\platform_browser\iframe\gapi.d.ts133847020013912236 0
@@ -16232,9 +16232,9 @@
 62C:\Users\robde\Desktop\Expense Tracker\node_modules\.bin\json5133847020055093356 0
 102C:\Users\robde\Desktop\Expense Tracker\node_modules\.bin\node-gyp-build-optional-packages-optional.ps1133847020055093356 0
 79C:\Users\robde\Desktop\Expense Tracker\node_modules\.bin\update-browserslist-db133847020055103358 0
-61C:\Users\robde\Desktop\Expense Tracker\docs\index.3d84b1c7.js133847031370073406 0
-61C:\Users\robde\Desktop\Expense Tracker\docs\index.ce33c2bd.js133847031370087907 0
-54C:\Users\robde\Desktop\Expense Tracker\docs\index.html133847031370008329 0
+61C:\Users\robde\Desktop\Expense Tracker\docs\index.3d84b1c7.js133847037344162216 0
+61C:\Users\robde\Desktop\Expense Tracker\docs\index.ce33c2bd.js133847037344172244 0
+54C:\Users\robde\Desktop\Expense Tracker\docs\index.html133847037344122219 0
 48C:\Users\robde\Desktop\Expense Tracker\assets\js133847017349515899 1
 56C:\Users\robde\Desktop\Expense Tracker\assets\js\auth.js133847017687163966 0
 59C:\Users\robde\Desktop\Expense Tracker\assets\js\chatBot.js133847017258574821 0
