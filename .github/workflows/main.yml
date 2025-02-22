@@ -1,0 +1,41 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main # Runs workflow on push to main branch
+  pull_request:
+    branches:
+      - main # Runs workflow on PR to main
+
+jobs:
+  lint-build-deploy:
+    name: Lint, Build & Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Linter (ESLint)
+        run: npm run lint
+        continue-on-error: false # Fail if linting fails
+
+      - name: Build Project (Parcel)
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # Deploy to the gh-pages branch
+          folder: docs # Ensure your build output goes to /docs
+          clean: true

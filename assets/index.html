@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="title-container">
+      <h1>Expense Tracker</h1>
+    </div>
+    <div class="signin-container">
+      <button id="googleSignInBtn" aria-label="Sign in with Google Account">
+        Sign in with Google
+      </button>
+      <button
+        id="googleSignOutBtn"
+        style="display: none"
+        aria-label="Sign out of Google Account"
+      >
+        Sign Out
+      </button>
+
+      <p id="userInfo"></p>
+    </div>
+
+    <main id="main">
+      <div id="tracker">
+        <section id="header">
+          <div>
+            <h5 id="balance-label">Total Balance</h5>
+            <span
+              id="balance"
+              aria-labelledby="balance-label"
+              aria-live="polite"
+              >$0.00</span
+            >
+          </div>
+          <div>
+            <h5 id="income-label">Income</h5>
+            <span id="income" aria-labelledby="income-label" aria-live="polite"
+              >$0.00</span
+            >
+          </div>
+          <div>
+            <h5 id="expense-label">Expense</h5>
+            <span
+              id="expense"
+              aria-labelledby="expense-label"
+              aria-live="polite"
+              >$0.00</span
+            >
+          </div>
+        </section>
+
+        <section aria-labelledby="transactions-heading">
+          <h3 id="transactions-heading">Transactions</h3>
+          <ul
+            id="transactionList"
+            aria-live="polite"
+            aria-describedby="transaction-placeholder"
+          ></ul>
+          <p id="transaction-placeholder" hidden>No transactions.</p>
+        </section>
+
+        <section aria-labelledby="add-transaction-heading">
+          <h3 id="add-transaction-heading">Add Transaction</h3>
+
+          <form id="transactionForm" aria-labelledby="add-transaction-heading">
+            <div>
+              <label for="type">
+                <input
+                  type="checkbox"
+                  name="type"
+                  id="type"
+                  checked
+                  aria-checked="true"
+                  role="switch"
+                  aria-labelledby="type-label"
+                />
+                <div class="option" data-option="Income">
+                  <span id="type-label">Expense</span>
+                </div>
+              </label>
+            </div>
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                aria-required="true"
+              />
+            </div>
+            <div>
+              <label for="amount">Amount</label>
+              <input
+                type="number"
+                name="amount"
+                value="0"
+                min="0"
+                step="any"
+                inputmode="decimal"
+                id="amount"
+                required
+                aria-required="true"
+                onfocus="this.select()"
+              />
+            </div>
+            <div>
+              <label for="date">Date</label>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                required
+                aria-required="true"
+              />
+            </div>
+            <button type="submit" aria-label="Submit Transaction">
+              Submit
+            </button>
+          </form>
+        </section>
+      </div>
+      <div id="monthly-view">
+        <h3>Monthly Breakdown</h3>
+        <div id="monthly-view-container"></div>
+      </div>
+
+      <div id="chatbot-container">
+        <h3>AI Chatbot</h3>
+        <div id="chatHistory"></div>
+        <label for="aiInput" class="visually-hidden">Enter your question</label>
+        <input
+          type="text"
+          id="aiInput"
+          placeholder="Ask a budget question..."
+        />
+        <button id="aiButton">Ask</button>
+      </div>
+      
+      </div>
+    </main>
+
+    <script type="module" src="./js/auth.js"></script>
+    <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/chatbot.js"></script>
+  </body>
+</html>
